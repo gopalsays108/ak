@@ -12,7 +12,7 @@
         
         
         <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
         
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="assets/css/styles.css">
@@ -53,6 +53,13 @@
                         <li class="nav__item">
                             <a href="#portfolio" class="nav__link">
                                 <i class="uil uil-estate nav__icon"></i> Portfolio
+
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#testimonial" class="nav__link">
+                                <i class="uil uil-estate nav__icon"></i> Testimonial
 
                             </a>
                         </li>
@@ -312,10 +319,10 @@
                 <h2 class="section__title">Portfolio</h2>
                 <span class="section__subtitle">Most recent</span>
 
-                <div class="portfolio__container container">
-                    <div>
+                <div class="portfolio__container container swiper-container">
+                    <div class="swiper-wrapper">
                         <!-- POrtfolio 1 -->
-                        <div class="portfolio__content grid">
+                        <div class="portfolio__content grid swiper-slide">
                             <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
                             
                             <div class="portfolio__data">
@@ -330,7 +337,7 @@
                         </div>
 
                         <!-- POrtfolio 2 -->
-                        <div class="portfolio__content grid">
+                        <div class="portfolio__content grid swiper-slide">
                             <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
                             
                             <div class="portfolio__data">
@@ -345,7 +352,7 @@
                         </div>
                         
                         <!-- POrtfolio 3 -->
-                        <div class="portfolio__content grid">
+                        <div class="portfolio__content grid swiper-slide">
                             <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
                             
                             <div class="portfolio__data">
@@ -360,9 +367,96 @@
                         </div>
                         
                     </div>
+
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right swiper-portfolio-icon"></i>
+                    </div>
+
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+
+                    <div class="swiper-pagination">
+
+                    </div>
+              
                 </div>
 
             </section>
+
+              <!--==================== PROJECT IN MIND ====================-->
+            <section class="project section">
+                <div class="project__bg">
+                    <div class="project__container container grid">
+                        <div class="project__data">
+                            <h2 class="project__title">So what are you waiting for contact us soo to get most of us</h2>
+                            <p class="project__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima aliquid est eaque corrupti neque magni</p>
+
+                            <a href="#contact" class="button button--flex button--white">
+                                Contact Us<i class="uil uil-message  project__icon button__icon"></i>  
+                            </a>
+                        </div>
+
+                        <img src="assets/img/project.png" class="project__img" alt="">
+                    </div>
+                </div>
+            </section>
+
+            
+            <!--==================== TESTIMONIAL ====================-->
+            <section class="testimonial section">
+                <h2 class="section__title">Testimonial</h2>
+                <span class="section__subtitle">My client saying</span>
+
+                <div class="testimonial__container container">
+                    <div>
+                        <!--  1st-->
+                        <div class="testimonial__content">
+                            <div class="testimonial__data">
+                                <div class="testimonial__header">
+                                    <img src="assets/img/testimonial1.jpg" alt="" class="testimonial__img">
+
+                                    <div>
+                                        <h3 class="testimonial__name">Rohit</h3>
+                                        <span class="testimonial__client">Client</span>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+    
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact">
+
+
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+
+            
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
 
             <!--==================== SKILLS ====================-->
             <!-- <section class="skills section" id="skills">
@@ -523,38 +617,3 @@
             </section> -->
 
        
-            <!--==================== PROJECT IN MIND ====================-->
-            <section class="project section">
-
-
-            </section>
-
-            <!--==================== TESTIMONIAL ====================-->
-            <section class="testimonial section">
-                
-
-            </section>
-
-            <!--==================== CONTACT ME ====================-->
-            <section class="contact section" id="contact">
-
-
-            </section>
-        </main>
-
-        <!--==================== FOOTER ====================-->
-        <footer class="footer">
-
-            
-        </footer>
-        
-        <!--==================== SCROLL TOP ====================-->
-        
-
-        <!--==================== SWIPER JS ====================-->
-        <script src=""></script>
-
-        <!--==================== MAIN JS ====================-->
-        <script src="assets/js/main.js"></script>
-    </body>
-</html>
