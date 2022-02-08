@@ -8,7 +8,7 @@
 
     /*========== Colors ==========*/
     /* Change favorite color */
-    --hue-color: 250; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+    --hue-color: 230; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
     /* HSL color mode */
     --first-color: hsl( var(--hue-color), 69%, 61%);
@@ -1076,6 +1076,9 @@ img{
     .footer__copy{
         margin-top: 4.5rem;
     }
+    .project__container{
+        padding-bottom: var(--mb-2);
+    }
  
 }
 
@@ -1084,6 +1087,10 @@ img{
 
     .container{
         max-width: 1000px;
+    }
+
+    .project__container{
+        padding-bottom: var(--mb-2);
     }
     
     .header,
