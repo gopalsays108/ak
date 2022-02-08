@@ -163,3 +163,19 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+
+//Send email
+function sendEmail(){
+    Email.send({
+        Host : "smtp.gmail.com",
+        Username : "gopal19csu115@ncuindia.edu",
+        Password : "GopalNcu@123",
+        To : 'gopalsays108@gmail.com',
+        From : "gkkg738@gmail.com",
+        Subject : "This is the subject",
+        Body : "And this is the body"
+    }).then(
+      message => alert(message)
+    );
+}
